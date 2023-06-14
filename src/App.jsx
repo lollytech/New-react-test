@@ -3,14 +3,14 @@ import UserOutput from "./UserOutput";
 
 
 class App extends Component{
-
-
+// To set a newName using state 
   state = {
     newName: [
       {username: "Omolara"}
     ],
   }
 
+  // to bind the input entered to overwrite the previous value
   nameChangedHandler = (e) =>{
     this.setState({
       newName: [
